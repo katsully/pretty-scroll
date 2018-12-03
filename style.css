@@ -1,0 +1,28 @@
+body {
+	/*I want the height 5x the height of the viewport*/
+	/*100vh = 100% of the viewport*/
+	height: 500vh;
+	color: white;
+	background-color: #8c14fc;
+	transition: 0.8s all;
+	margin: 0;
+}
+
+h1, h3{
+	text-align: center;
+}
+
+.banner {
+	position: fixed;
+	width: 98%;
+	text-align: center;
+	/*rgb range 0-255*/
+	/*a (alpha) 0 to 1*/
+	background-color: rgba(20, 200, 100, .5);
+	top: 50%;
+	border: 10px solid black;
+	margin: 0;
+	color: black;
+	transition: 0.8s all;
+	font-size: 40px;
+}
